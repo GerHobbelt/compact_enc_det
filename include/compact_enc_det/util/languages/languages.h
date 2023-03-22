@@ -26,7 +26,7 @@
 #ifndef SWIG
 // Language enum defined in languages.proto
 // Also description on how to add languages.
-#include "util/languages/languages.pb.h"
+#include "compact_enc_det/util/languages/languages.pb.h"
 
 #else
 

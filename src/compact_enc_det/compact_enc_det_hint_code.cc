@@ -19,8 +19,8 @@
 #include <ctype.h>                      // for isalpha
 #include <string.h>                     // for NULL, memchr, strlen, etc
 
-#include "util/basictypes.h"            // for uint8, uint32
-#include "util/string_util.h"
+#include "compact_enc_det/util/basictypes.h"            // for uint8, uint32
+#include "compact_enc_det/util/string_util.h"
 
 // Upper to lower, keep digits, everything else to minus '-' (2d)
 static const char kCharsetToLowerTbl[256] = {

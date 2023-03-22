@@ -22,9 +22,9 @@
 
 
 #include "gtest/gtest.h"
-#include "util/basictypes.h"
-#include "util/commandlineflags.h"
-#include "util/varsetter.h"             // for VarSetter
+#include "compact_enc_det/util/basictypes.h"
+#include "compact_enc_det/util/commandlineflags.h"
+#include "compact_enc_det/util/varsetter.h"             // for VarSetter
 
 using std::string;
 
@@ -33,7 +33,7 @@ DECLARE_bool(ced_allow_utf8utf8);
 DEFINE_int32(trackme, -1, "Track this encoding in --enc_detect_detail output");
 
 static const char kDetailHead[] =
-#include "compact_enc_det/detail_head_string.inc"  // IWYU pragma: keep
+#include "detail_head_string.inc"  // IWYU pragma: keep
 ;
 
 // escape PostScript string (no parens)

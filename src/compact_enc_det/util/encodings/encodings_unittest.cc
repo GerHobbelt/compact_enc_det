@@ -14,7 +14,7 @@
 //
 ////////////////////////////////////////////////////////////////////////////////
 
-#include "util/encodings/encodings.h"
+#include "compact_enc_det/util/encodings/encodings.h"
 
 #include "gtest/gtest.h"
 

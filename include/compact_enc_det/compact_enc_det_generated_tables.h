@@ -19,8 +19,8 @@
 
 #include "compact_enc_det/compact_enc_det.h"
 #include "compact_enc_det/compact_enc_det_generated_tables2.h"
-#include "util/basictypes.h"
-#include "util/encodings/encodings.pb.h"
+#include "compact_enc_det/util/basictypes.h"
+#include "compact_enc_det/util/encodings/encodings.pb.h"
 
 enum RankedEncoding {
   F_ASCII_7_bit,		// [0] encoding 24

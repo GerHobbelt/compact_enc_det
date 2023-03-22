@@ -19,9 +19,9 @@
 #include <memory>
 
 #include "compact_enc_det/compact_enc_det.h"
-#include "util/encodings/encodings.h"
-#include "util/languages/languages.h"
-#include "util/port.h"
+#include "compact_enc_det/util/encodings/encodings.h"
+#include "compact_enc_det/util/languages/languages.h"
+#include "compact_enc_det/util/port.h"
 #include "gtest/gtest.h"
 
 namespace {

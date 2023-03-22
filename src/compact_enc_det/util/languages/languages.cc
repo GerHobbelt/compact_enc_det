@@ -14,10 +14,10 @@
 //
 ////////////////////////////////////////////////////////////////////////////////
 
-#include "util/languages/languages.h"
+#include "compact_enc_det/util/languages/languages.h"
 
-#include "util/basictypes.h"
-#include "util/string_util.h"
+#include "compact_enc_det/util/basictypes.h"
+#include "compact_enc_det/util/string_util.h"
 
 
 Language default_language() {return ENGLISH;}

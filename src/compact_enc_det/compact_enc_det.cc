@@ -25,10 +25,10 @@
 #include <string>                       // for string, operator==, etc
 
 #include "compact_enc_det/compact_enc_det_hint_code.h"
-#include "util/string_util.h"
-#include "util/basictypes.h"
-#include "util/commandlineflags.h"
-#include "util/logging.h"
+#include "compact_enc_det/util/string_util.h"
+#include "compact_enc_det/util/basictypes.h"
+#include "compact_enc_det/util/commandlineflags.h"
+#include "compact_enc_det/util/logging.h"
 
 using std::string;
 

@@ -25,8 +25,8 @@
 
 #include <string>
 
-#include "util/basictypes.h"
-#include "util/string_util.h"
+#include "compact_enc_det/util/basictypes.h"
+#include "compact_enc_det/util/string_util.h"
 
 // Functors for hashing c-strings with case-insensitive semantics.
 struct CStringCaseHash {

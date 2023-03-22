@@ -14,15 +14,15 @@
 //
 ////////////////////////////////////////////////////////////////////////////////
 
-#include "util/encodings/encodings.h"
+#include "compact_enc_det/util/encodings/encodings.h"
 
 #include <string.h>                     // for strcasecmp
 #include <unordered_map>
 #include <utility>                      // for pair
 
-#include "util/basictypes.h"
-#include "util/string_util.h"
-#include "util/case_insensitive_hash.h"
+#include "compact_enc_det/util/basictypes.h"
+#include "compact_enc_det/util/string_util.h"
+#include "compact_enc_det/util/case_insensitive_hash.h"
 
 struct EncodingInfo {
   // The standard name for this encoding.

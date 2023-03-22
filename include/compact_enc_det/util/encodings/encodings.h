@@ -35,7 +35,7 @@
 
 #ifndef SWIG
 
-#include "util/encodings/encodings.pb.h"
+#include "compact_enc_det/util/encodings/encodings.pb.h"
 
 #else
 

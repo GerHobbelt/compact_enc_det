@@ -17,8 +17,8 @@
 #ifndef COMPACT_ENC_DET_COMPACT_ENC_DET_H_
 #define COMPACT_ENC_DET_COMPACT_ENC_DET_H_
 
-#include "util/encodings/encodings.h"  // for Encoding
-#include "util/languages/languages.h"  // for Language
+#include "compact_enc_det/util/encodings/encodings.h"  // for Encoding
+#include "compact_enc_det/util/languages/languages.h"  // for Language
 
 #include <string.h>
 

@@ -5,3 +5,6 @@ bin
 cmake_install.cmake
 gtest
 lib
+.cache
+.xmake
+build
