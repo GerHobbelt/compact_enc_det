@@ -1,11 +1,5 @@
 add_rules("mode.debug", "mode.release")
 
-if is_mode("debug") then
-    set_runtimes("MDd")
-else
-    set_runtimes("MD")
-end
-
 add_requires("gtest", { configs = {main = true} })
 
 target("compact_enc_det")
